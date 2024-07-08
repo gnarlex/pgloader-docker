@@ -152,7 +152,7 @@
                                                         (sq:split-sequence #\, fcols))
                                       :update-rule fk-update-rule
                                       :delete-rule fk-delete-rule)))
-           (add-fkey table fkey)
+           (add-fkey table fkey))
      :finally (return catalog)))
 
 
